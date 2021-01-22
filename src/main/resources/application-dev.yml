@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    type: org.springframework.jdbc.datasource.DriverManagerDataSource
+    url: jdbc:mysql://59.110.158.145:3306/aiops?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: wangxd

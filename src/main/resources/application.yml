@@ -1,0 +1,15 @@
+server:
+  port: 9087
+test:
+  port: 9087
+  password: wangxd
+spring:
+  profiles:
+    active: dev
+app:
+  id: demo
+apollo:
+  meta: http://129.211.113.149:8080/
+  bootstrap:
+    enabled: true
+    namespaces: TEST1.applicatiton,application-dev
